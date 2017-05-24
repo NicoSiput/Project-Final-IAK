@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nicosiput.com.projectfinaliak3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/shop"
+        android:label="Shopping Cart IAK"
+        android:roundIcon="@drawable/shop"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".splashScreen.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".detilBarang" />
+        <activity android:name=".detail_transaksi" />
+        <activity android:name=".lupaPassword_activity" />
+        <activity android:name=".registerActivity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".PengaturanActivity"></activity>
+    </application>
+
+</manifest>

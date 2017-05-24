@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project Final IAK3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="namaToko">Nicomputer</string>
+
+    <string name="copyRight">&#169;CopyRight NICO - 2017</string>
+</resources>

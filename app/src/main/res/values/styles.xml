@@ -1,0 +1,178 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="search">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/hitam</item>
+        <item name="android:textSize">@dimen/sizeTxt14</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">Times New Roman</item>
+        <item name="android:paddingRight">@dimen/padding10</item>
+    </style>
+
+
+    <!-- Fragment Toko Saya -->
+
+    <style name="waktu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/hitam</item>
+        <item name="android:textSize">@dimen/sizeTxt18</item>
+        <item name="android:paddingTop">5dp</item>
+    </style>
+
+    <style name="jumlahUangMasuk">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/uangMasuk</item>
+        <item name="android:textSize">@dimen/sizeTxt14</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="jumlahUangKeluar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/uangKeluar</item>
+        <item name="android:textSize">@dimen/sizeTxt14</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="keterangan">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/DarkBlue</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="motto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt14</item>
+        <item name="android:textColor">@color/hitam</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="namaToko">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/namaToko</item>
+        <item name="android:textColor">@color/MidnightBlue</item>
+        <item name="android:textSize">@dimen/sizeTxt25</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="saldo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt18</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+    <!-- Fragment barang Saya -->
+    <style name="namaBarang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/padding10</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+        <item name="android:textSize">@dimen/sizeTxt20</item>
+        <item name="android:textColor">@color/hitam</item>
+    </style>
+
+    <style name="hargaBarang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt15</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+    </style>
+
+    <style name="stokBarang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt15</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+    </style>
+
+    <style name="descBarang">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt15</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+    </style>
+
+    <!-- Detil Transaksi -->
+    <style name="namaBarangTransaksi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/padding10</item>
+        <item name="android:layout_marginBottom">@dimen/padding10</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+        <item name="android:textSize">@dimen/sizeTxt15</item>
+        <item name="android:textColor">@color/hitam</item>
+    </style>
+
+    <style name="hargaBarangTransaksi">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/DarkGreen</item>
+        <item name="android:layout_marginLeft">@dimen/padding10</item>
+        <item name="android:layout_marginBottom">@dimen/padding5</item>
+    </style>
+
+    <style name="informasiBottom">
+        <item name="android:padding">@dimen/padding10</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/uangMasuk</item>
+        <item name="android:textSize">@dimen/sizeTxt20</item>
+    </style>
+
+
+    <!-- About Fragment -->
+
+    <style name="About">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt20</item>
+        <item name="android:textColor">@color/hitam</item>
+    </style>
+
+    <style name="AboutAlamat">
+        <item name="android:layout_margin">@dimen/padding10</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/sizeTxt18</item>
+        <item name="android:textColor">@color/hitam</item>
+    </style>
+
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nicosiput.com.projectfinaliak3.detail_transaksi"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/mTxtTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/hitam"
+                android:text="To :"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_below="@id/mTxtTo"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/hitam"
+                android:text="Pandhu Wibowo"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/mTxtTgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/hitam"
+                android:text="Tanggal Pembelian :"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/mTxtTgl"
+                android:textColor="@color/hitam"
+                android:text="23 Agustus 2017"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#NVNCO23072017"
+            android:textSize="@dimen/sizeTxt25"
+            android:textColor="@color/putih"
+            android:layout_centerHorizontal="true"
+            android:background="@color/uangKeluar"
+            android:gravity="center_horizontal"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/item1"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/namaBarangTransaksi"
+                                android:text="Keyboard Gaming Sades K120 Rz Semi Mechanical"/>
+
+                            <TextView
+                                style="@style/hargaBarangTransaksi"
+                                android:text="Rp. 250.000,00"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/item2"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/namaBarangTransaksi"
+                                android:text="Deepcool fan case XFan 12 cm Blue/Red"/>
+
+                            <TextView
+                                style="@style/hargaBarangTransaksi"
+                                android:text="Rp. 250.000,00"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:src="@drawable/item3"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                style="@style/namaBarangTransaksi"
+                                android:text="Mouse Gaming Warwolf M520"/>
+
+                            <TextView
+                                style="@style/hargaBarangTransaksi"
+                                android:text="Rp. 250.000,00"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:padding="@dimen/padding10"
+                            android:id="@+id/mTxtKeterangan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/uangMasuk"
+                            android:textSize="@dimen/sizeTxt20"
+                            android:text="Keterangan :"/>
+
+                        <TextView
+                            android:id="@+id/mTxtIsiKeterangan"
+                            android:layout_below="@id/mTxtKeterangan"
+                            style="@style/informasiBottom"
+                            android:text="-"/>
+
+                        <TextView
+                            android:padding="@dimen/padding10"
+                            android:id="@+id/mTxtTotal"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/hitam"
+                            android:textSize="@dimen/sizeTxt25"
+                            android:text="Rp. 750.000,00"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/padding10">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="left"
+                    android:padding="@dimen/padding10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="Biaya Kirim"/>
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="Jumlah"/>
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="Grand Total"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:padding="@dimen/padding10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="Rp 15.000"/>
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="3 Barang"/>
+
+                    <TextView
+                        style="@style/informasiBottom"
+                        android:text="Rp 765.000"/>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

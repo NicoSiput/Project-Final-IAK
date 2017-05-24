@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nicosiput.com.projectfinaliak3.Fragment.fragmentTokoSaya"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/mImageProfile"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/man"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/mTxtNamaToko"
+            style="@style/namaToko"
+            />
+
+        <TextView
+            android:id="@+id/mTxtMotto"
+            style="@style/motto"
+            android:text="Solusi Kebutuhan Komputer Anda"
+            />
+
+        <TextView
+            android:id="@+id/mTxtSaldo"
+            style="@style/saldo"
+            android:text="Saldo : Rp. 500.000,00"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp"
+                android:onClick="onClickCard1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            style="@style/jumlahUangMasuk"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Transaksi Sukses #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashout"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            style="@style/jumlahUangKeluar"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Pembayaran Transaksi #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            style="@style/jumlahUangMasuk"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Transaksi Sukses #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashout"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            style="@style/jumlahUangKeluar"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Pembayaran Transaksi #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashin"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            android:id="@+id/mTxtJumlah"
+                            style="@style/jumlahUangMasuk"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Transaksi Sukses #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        app:srcCompat = "@drawable/cashout"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            style="@style/waktu"
+                            android:text="Kamis, 20 Mei 2017 14:21:02 PM"/>
+
+                        <TextView
+                            style="@style/jumlahUangKeluar"
+                            android:text="Rp. 750.000 - Rp. 250.000 = Rp. 500.000"/>
+
+                        <TextView
+                            style="@style/keterangan"
+                            android:text="Pembayaran Transaksi #INV150520177"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
